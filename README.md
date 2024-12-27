@@ -19,7 +19,7 @@
 
 <h3>Installation</h3>
 <ol>
-  <li>Clone the repository: <a href="https://github.com/baobaoshop/PhuThoTourist.git">https://github.com/baobaoshop/PhuThoTourist.git</a></li>
+  <li>Clone the repository: <a href="https://github.com/baobaoshop/ThuyTaRestaurant.git">https://github.com/baobaoshop/ThuyTaRestaurant.git</a></li>
   <li>Cài composer: composer install</li>
   <li>Chạy project: php artisan serve</li>
   <li>Chạy biên dịch frontend (CSS, JavaScript): php run dev</li>
