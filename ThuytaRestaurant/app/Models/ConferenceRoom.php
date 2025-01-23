@@ -19,8 +19,6 @@ class ConferenceRoom extends Model
         'location', 
         'area', 
         'guest_theater', 
-        'guest_table_10', 
-        'guest_table_8', 
         'price_haft_day', 
         'price_full_day', 
         'note_code'
@@ -29,6 +27,12 @@ class ConferenceRoom extends Model
     public function note()
     {
         return $this->belongsTo(ConferenceRoomNote::class, 'note_code', 'code');
+    }
+
+    public function capacities()
+    {
+        return $this->belongsToMany(RoomCapacity::class, 'conferenceroom_capacity', 'room_code', 'capacity_code', 'code', 'code')
+            ->withPivot('quantity');
     }
     
 }

@@ -13,7 +13,7 @@ class BanquetHall extends Model
     
     public $timestamps = false;
 
-    protected $fillable = ['id', 'hall_code', 'hall_name', 'date', 'enable'];
+    protected $fillable = ['id', 'hall_code', 'hall_subname', 'hall_name', 'date', 'enable'];
 
     public function contents()
     {

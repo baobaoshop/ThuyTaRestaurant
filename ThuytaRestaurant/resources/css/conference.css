@@ -1,0 +1,33 @@
+.no-wrap {
+    white-space: nowrap;
+}
+.p40 th{
+    padding: 40px 10px;
+}
+.text_nowrap, 
+.text_nowrap td, 
+.table-no-wrap th {
+    white-space: nowrap;
+}
+.conference_title {
+    margin: auto;
+    width: 80%;
+    min-width: 800px;
+    color: #666;
+}
+.conference_maintitle {
+    color: var(--Cam, #ED7D31);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.44px;
+}
+.conference_subtitle {
+    color: var(--gray-500, #666);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}

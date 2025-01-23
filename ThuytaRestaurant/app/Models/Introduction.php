@@ -13,5 +13,5 @@ class Introduction extends Model
     
     public $timestamps = false;
 
-    protected $fillable = ['id', 'code'. 'title', 'subtitle', 'content', 'img', 'enable'];
+    protected $fillable = ['id', 'code', 'title', 'subtitle', 'content', 'img', 'enable'];
 }

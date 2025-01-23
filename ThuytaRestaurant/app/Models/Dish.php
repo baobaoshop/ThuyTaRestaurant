@@ -9,13 +9,17 @@ class Dish extends Model
 {
     use HasFactory;
 
-    protected $table = 'Dish'; // Tên bảng trong database
+    protected $table = 'Dish'; 
     
     public $timestamps = false;
 
+    protected $primaryKey = 'dish_code';
+    public $incrementing = false;
+    protected $keyType = 'string';
+
     protected $fillable = [
         'id', 
-        'code', 
+        'dish_code', 
         'category_code', 
         'dish_name', 
         'subname', 
@@ -33,7 +37,13 @@ class Dish extends Model
        
     public function ingredients()
     {
-        return $this->belongsToMany(Ingredient::class, 'dish_ingredients', 'dish_code', 'ingredient_code');
+        return $this->belongsToMany(
+            Ingredient::class,
+            'dish_ingredients', // Tên bảng pivot
+            'dish_code',        // Khóa ngoại từ Dish
+            'ingredient_code'   // Khóa ngoại từ Ingredient
+        );
     }
+
     
 }

@@ -1,0 +1,81 @@
+.banquet_container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.banquet_container_highlight {
+    color: #C75D15;
+    border-left: 6px solid #ED7D31;
+    padding: 6px 10px;
+    text-align: justify;
+}
+.banquet_container_normal {
+    text-align: justify;
+}
+.banquet_container_img_gr1,
+.banquet_container_img_gr2 {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+.banquet_container_img_single {
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+.banquet_container_img_subgroup {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.banquet_container_img_double {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banquet_container_img_gr3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.banquet_container_img_tripple {
+    width: 32%;
+    flex: 1;
+    object-fit: cover;
+}
+.banquet_container_caption {
+    color: #ED7D31;
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+}
+.banquet_container_img_gr_final1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px; 
+}
+.banquet_container_img_gr_final1 img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+.banquet_container_img_gr_final2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px; 
+}
+.banquet_container_img_gr_final2 img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+.banquet_container_title {
+    font-family: "EB Garamond", serif;
+    font-size: 32px;
+    color: #C75D15;
+    text-transform: uppercase;
+    text-align: justify;
+}

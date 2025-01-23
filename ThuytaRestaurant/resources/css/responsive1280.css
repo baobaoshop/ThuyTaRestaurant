@@ -1,0 +1,49 @@
+@media (max-width: 1280px) {
+    .header {
+        padding: 10px 30px;
+    }
+    .header_mainname {
+        font-size: 26px;
+    }
+    .header_subname {
+        font-size: 18px;
+    }
+    .header_main_item {
+        font-size: 14px;
+    }
+    .header_search_input {
+        width: 90px;
+        font-size: 14px;
+    }
+    .contact_link {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .footer_main {
+        padding: 20px 200px 20px 40px;
+        font-size: 14px;
+    }
+    .footer_contact_title, .footer_list_title{
+        font-size: 25px;
+    }
+    .menu_swiper_item img {
+        height: 300px;
+    }
+    .menu_right_item_main_name {
+        font-size: 30px;
+    }
+    .menu_right_item_main_quantity {
+        font-size: 22px;
+    }
+    .menu_right_item_img {
+        height: 90px;
+        width: 90px;
+    }
+    .menu_right {
+        margin: 0;
+    }
+    .menu_background_top {
+        left: -600px;
+    }
+}

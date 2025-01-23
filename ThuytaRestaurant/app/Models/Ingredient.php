@@ -9,15 +9,25 @@ class Ingredient extends Model
 {
     use HasFactory;
 
-    protected $table = 'Ingredient'; // Tên bảng trong database
+    protected $table = 'Ingredient'; 
     
     public $timestamps = false;
 
-    protected $fillable = ['id', 'code', 'name'];
+    protected $primaryKey = 'ingredient_code';
+    public $incrementing = false;
+    protected $keyType = 'string';
+
+    protected $fillable = ['id', 'ingredient_code', 'name'];
 
     public function dishes()
     {
-        return $this->belongsToMany(Dish::class, 'dish_ingredients', 'ingredient_code', 'dish_code');
+        return $this->belongsToMany(
+            Dish::class,
+            'dish_ingredients', // Tên bảng pivot
+            'ingredient_code',  // Khóa ngoại từ Ingredient
+            'dish_code'         // Khóa ngoại từ Dish
+        );
     }
+    
     
 }

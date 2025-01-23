@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+    .home_swiper_main_subtitle {
+        font-size: 20px;
+    }
+    .home_swiper_main_title {
+        font-size: 33px;
+        margin: 10px auto;
+    }
+    .home_swiper_main_content {
+        font-size: 16px;
+    }
+    .home_swiper_main_img {
+        height: 130px;
+        width: 130px;
+    }
+    .home_swiper_main_btn {
+        padding: 10px 80px;
+        font-size: 22px;
+    }
+    .home-swiper-pagination.swiper-pagination {
+        bottom: 140px;
+    }
+    .home-swiper-button {
+        width: 40px;
+        height: 40px;
+    }
+    .home-swiper-button::after {
+        font-size: 16px;
+    }
+    .home_swiper_link_btn {
+        bottom: 80px;
+    }
+    .menu_background_top {
+        width: 1000px;
+        height: 1000px;
+        top: -750px;
+        left: -500px;
+        border: 110px solid #EE965B;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer_main {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 180px 60px 20px;
+        font-size: 14px;
+    }
+    .footer_contact, .footer_list{
+        gap: 6px;
+    }
+    .footer_contact_list {
+        gap: 6px;
+    }
+    .footer_contact_title, .footer_list_title{
+        font-size: 24px;
+    }
+    .footer_logo{
+        height: 70px;
+        width: 70px;
+    }
+    .footer_background {
+        height: auto;
+        bottom: 0;
+    }
+    .footer_contact_title, .footer_list_title{
+        line-height: 24px;
+    }
+
+    .header {
+        display: none;
+    }
+    .header--mobile {
+        display: block;
+    }
+    .menu_right {
+        display: none;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 450px;
+        overflow-y: scroll;
+    }
+    .menu_main {
+        padding: 60px 40px 20px 60px;
+        height: 700px;
+    }
+    .menu_background_bottom {
+        width: 250px;
+    }
+    .menu_left {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .menu_swiper_item img {
+        margin: auto;
+    }
+    .promotion_title {
+        font-size: 38px;
+    }
+    #iconmenu {
+        display: inline-flex;
+    }
+}

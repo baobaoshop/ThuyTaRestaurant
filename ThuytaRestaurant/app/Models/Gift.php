@@ -13,11 +13,15 @@ class Gift extends Model
     
     public $timestamps = false;
 
-    protected $fillable = ['id', 'code', 'name'];
+    protected $primaryKey = 'code';
+    public $incrementing = false;
+    protected $keyType = 'string';
+
+    protected $fillable = ['id', 'code', 'name', 'enable'];
 
     public function reservedTables()
     {
-        return $this->belongsToMany(ReservedTable::class, 'gift_reserved_tables', 'gift_code', 'reservedtable_code');
+        return $this->belongsToMany(ReservedTable::class, 'gift_reservedtable', 'gift_code', 'reservedtable_code');
     }
     
 }

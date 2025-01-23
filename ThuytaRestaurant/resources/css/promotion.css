@@ -1,0 +1,81 @@
+.prmotion_header {
+    padding: 100px 40px 40px 40px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.promotion_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.promotion_background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.promotion_title {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: "EB Garamond", serif;
+    font-size: 50px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.promotion_main {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: auto;
+}
+.promotion_img {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+}
+.promotion_img img {
+    width: 100%;
+}
+.promotion_table {
+    margin: auto;
+    width: 80%;
+    min-width: 800px;
+    border-collapse: collapse;
+    color: #666;
+}
+td, th {
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+}
+.p4 th{
+    padding: 25px 10px;
+    min-width: 72px;
+}
+.promotion_table_header1 {
+    color: #C75D15;
+    background-color: #FFEED8;
+}
+.promotion_table_header2 {
+    color: #C75D15;
+    background-color: #FFDAA7;
+}
+.promotion_notes {
+    margin: auto;
+    width: 80%;
+    min-width: 800px;
+    list-style-type: disc;
+    padding-left: 40px;
+    color: #666;
+}
