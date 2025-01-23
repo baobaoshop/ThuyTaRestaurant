@@ -2,18 +2,19 @@
 <p><b>Nhóm:</b> [Internship]_PHP_2024_05_11.11.2024</p>
 <p><b>Ngày nhận dự án:</b> 25.12.2024</p>
 <p><b>Deadline:</b> 4 tuần</p>
-<p><b>Ngày hết hạn dự kiến:</b> 22.01.2025</p>
+<p><b>Ngày hết hạn dự kiến:</b> 23.01.2025</p>
 
 <p>Tiến độ dự án:</p>
 <ul>
   <li>[x] Tìm hiểu nghiệp vụ</li>
   <li>[x] Thiết kế database</li>
-  <li>[ ] Thiết kế giao diện</li>
-  <li>[ ] Chức năng Introduction</li>
-  <li>[ ] Chức năng Banquet Hall</li>
-  <li>[ ] Chức năng Menu</li>
-  <li>[ ] Chức năng Conference Room</li>
-  <li>[ ] Chức năng Gift</li>
+  <li>[x] Thiết kế giao diện</li>
+  <li>[x] Chức năng Introduction</li>
+  <li>[x] Chức năng Banquet Hall</li>
+  <li>[x] Chức năng Menu</li>
+  <li>[x] Chức năng Conference Room</li>
+  <li>[x] Chức năng Gift</li>
+  <li>[x] Chức năng Admin</li>
 </ul>
 <hr/>
 
